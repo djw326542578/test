@@ -11,8 +11,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{9A7E29D9-1C34-4C0E-BF7D-899F934BF8EF}</ProjectGuid>
-    <RootNamespace>My41</RootNamespace>
+    <ProjectGuid>{E78669B3-DDB6-4F25-8F6D-CD730778222A}</ProjectGuid>
+    <RootNamespace>My42</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -64,11 +64,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="game.c" />
     <ClCompile Include="源.c" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="head.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
